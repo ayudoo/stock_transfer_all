@@ -1,0 +1,173 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_transfer_all
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-09 15:07+0000\n"
+"PO-Revision-Date: 2022-06-09 15:07+0000\n"
+"Last-Translator: <mj@ayudoo.bg>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: stock_transfer_all
+#: model:ir.model.fields.selection,name:stock_transfer_all.selection__stock_transfer_all_wizard__quantities_to_transfer__all
+msgid "All"
+msgstr "Alle"
+
+#. module: stock_transfer_all
+#: model:ir.model.fields.selection,name:stock_transfer_all.selection__stock_transfer_all_wizard__quantities_to_transfer__available
+msgid "Available"
+msgstr "Verfügbare"
+
+#. module: stock_transfer_all
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_line__available_quantity
+msgid "Available Quantity"
+msgstr "Vefügbare Menge"
+
+#. module: stock_transfer_all
+#: model_terms:ir.ui.view,arch_db:stock_transfer_all.view_transfer_all_wizard
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#. module: stock_transfer_all
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_wizard__company_id
+msgid "Company"
+msgstr "Unternehmen"
+
+#. module: stock_transfer_all
+#: model_terms:ir.ui.view,arch_db:stock_transfer_all.view_transfer_all_wizard
+msgid "Create Internal Transfer"
+msgstr "Internen Tranfer erstellen"
+
+#. module: stock_transfer_all
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_line__create_uid
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_wizard__create_uid
+msgid "Created by"
+msgstr "Erstellt von"
+
+#. module: stock_transfer_all
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_line__create_date
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_wizard__create_date
+msgid "Created on"
+msgstr "Erstellt am"
+
+#. module: stock_transfer_all
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_wizard__destination_location_id
+msgid "Destination Location"
+msgstr "Ziellagerort"
+
+#. module: stock_transfer_all
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_location__display_name
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_line__display_name
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_wizard__display_name
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#. module: stock_transfer_all
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_location__id
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_line__id
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_wizard__id
+msgid "ID"
+msgstr ""
+
+#. module: stock_transfer_all
+#: model:ir.model,name:stock_transfer_all.model_stock_location
+msgid "Inventory Locations"
+msgstr "Inventurlager"
+
+#. module: stock_transfer_all
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_location____last_update
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_line____last_update
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_wizard____last_update
+msgid "Last Modified on"
+msgstr "Zuletzt geändert am"
+
+#. module: stock_transfer_all
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_line__write_uid
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Zuletzt aktualisiert von"
+
+#. module: stock_transfer_all
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_line__write_date
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_wizard__write_date
+msgid "Last Updated on"
+msgstr "Zuletzt aktualisiert am"
+
+#. module: stock_transfer_all
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_wizard__origin_location_id
+msgid "Origin Location"
+msgstr "Ursprungslagerort"
+
+#. module: stock_transfer_all
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_wizard__picking_type_id
+msgid "Picking Type"
+msgstr "Vorgangstyp"
+
+#. module: stock_transfer_all
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_line__product_id
+msgid "Product"
+msgstr "Produkt"
+
+#. module: stock_transfer_all
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_line__quant_id
+msgid "Quant"
+msgstr "Quant"
+
+#. module: stock_transfer_all
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_wizard__quantities_to_transfer
+msgid "Quantities To Transfer"
+msgstr "Zu tranferierende Mengen"
+
+#. module: stock_transfer_all
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_line__quantity
+msgid "Quantity"
+msgstr "Menge"
+
+#. module: stock_transfer_all
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_line__transfer_quantity
+msgid "Quantity To Transfer"
+msgstr "Zu transferierende Menge"
+
+#. module: stock_transfer_all
+#: code:addons/stock_transfer_all/models/stock_location.py:0
+#: model_terms:ir.ui.view,arch_db:stock_transfer_all.view_location_form
+#, python-format
+msgid "Transfer All"
+msgstr "Alle Verschieben"
+
+#. module: stock_transfer_all
+#: model:ir.model,name:stock_transfer_all.model_stock_transfer_all_line
+msgid "Transfer All Line"
+msgstr ""
+
+#. module: stock_transfer_all
+#: model:ir.model,name:stock_transfer_all.model_stock_transfer_all_wizard
+msgid "Transfer All Wizard"
+msgstr "Assistent zum Verschieben aller Produkte"
+
+#. module: stock_transfer_all
+#: model_terms:ir.ui.view,arch_db:stock_transfer_all.view_transfer_all_wizard
+msgid "Transfer Details"
+msgstr "Vorgangdetails"
+
+#. module: stock_transfer_all
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_wizard__transfer_line_ids
+msgid "Transfer Lines"
+msgstr "Vorgangzeilen"
+
+#. module: stock_transfer_all
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_line__product_uom_id
+msgid "Unit of Measure"
+msgstr "Mengeneinheit"
+
+#. module: stock_transfer_all
+#: model:ir.model.fields,field_description:stock_transfer_all.field_stock_transfer_all_line__wizard_id
+msgid "Wizard"
+msgstr "Assistent"

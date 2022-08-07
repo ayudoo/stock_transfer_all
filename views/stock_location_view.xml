@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <record id="view_location_form" model="ir.ui.view">
+    <field name="name">stock.location.form</field>
+    <field name="model">stock.location</field>
+    <field name="inherit_id" ref="stock.view_location_form" />
+    <field name="arch" type="xml">
+      <div class="oe_button_box" position="inside">
+        <button
+          string="Transfer All"
+          class="oe_stat_button"
+          icon="fa-long-arrow-right"
+          name="open_transfer_all_wizard"
+          type="object"/>
+      </div>
+    </field>
+  </record>
+
+</odoo>
