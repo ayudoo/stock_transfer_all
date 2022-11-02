@@ -29,7 +29,7 @@
               ('destination_location_id','=',False),
               ('quantities_to_transfer','=',False),
             ]}">
-            <field name="transfer_line_ids" nolabel="1">
+            <field colspan="2" name="transfer_line_ids" nolabel="1">
               <tree
                 string="Transfer Details"
                 create="false"
