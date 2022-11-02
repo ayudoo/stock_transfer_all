@@ -8,6 +8,7 @@ Stock Transfer All
 
 Transfer stock form one location to another.
 
+**This is the Odoo 16 branch**
 
 **Table of contents**
 
@@ -18,8 +19,11 @@ Transfer stock form one location to another.
 Usage
 -----
 
-In your ``Inventory`` -> ``Locations`` view, open your location and choose
-``Transfer All`` from the button box.
+This module is usable for you, if you use multiple storage locations. For this, first
+activate ``Storage Locations`` in the settings.
+
+After this, to transfer all stock, navigate to ``Inventory`` -> ``Locations`` view,
+open your location and choose ``Transfer All`` from the button box.
 
 
 Bug Tracker
