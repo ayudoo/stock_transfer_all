@@ -113,7 +113,7 @@ class TransferAllWizard(models.TransientModel):
                 "picking_type_id": self.picking_type_id.id,
                 "location_id": self.origin_location_id.id,
                 "location_dest_id": self.destination_location_id.id,
-                "move_lines": [
+                "move_ids": [
                     (
                         0,
                         0,
