@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <odoo>
   <record id="view_transfer_all_wizard" model="ir.ui.view">
     <field name="name">stock_transfer_all.wizard.form</field>
@@ -18,17 +18,11 @@
                 ('company_id', '=', company_id),
                 ('company_id', '=', False),
               ]"/>
-            <field
-              name="quantities_to_transfer"
-              attrs="{'invisible': [('destination_location_id','=',False)]}"/>
+            <field name="quantities_to_transfer" invisible="not destination_location_id"/>
           </group>
           <group
             name="transfer_lines"
-            attrs="{'invisible': [
-              '|',
-              ('destination_location_id','=',False),
-              ('quantities_to_transfer','=',False),
-            ]}">
+            invisible="not destination_location_id or not quantities_to_transfer">
             <field colspan="2" name="transfer_line_ids" nolabel="1">
               <tree
                 string="Transfer Details"
@@ -37,7 +31,7 @@
                 editable="bottom"
                 decoration-info="transfer_quantity == 0"
                 decoration-success="transfer_quantity == quantity"
-                decoration-danger="transfer_quantity > quantity">
+                decoration-danger="transfer_quantity &gt; quantity">
                 <field name="quant_id" invisible="1"/>
                 <field name="product_id"/>
                 <field name="available_quantity"/>
@@ -53,11 +47,7 @@
               string="Create Internal Transfer"
               type="object"
               class="btn-primary"
-              attrs="{'invisible': [
-                '|',
-                ('destination_location_id','=',False),
-                ('transfer_line_ids','=',[]),
-              ]}"/>
+              invisible="not destination_location_id or not transfer_line_ids"/>
             <button special="cancel" string="Cancel" class="btn-default"/>
           </footer>
         </sheet>

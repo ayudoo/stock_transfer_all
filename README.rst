@@ -8,7 +8,7 @@ Stock Transfer All
 
 Transfer stock form one location to another.
 
-**This is the Odoo 16 branch**
+**This is the Odoo 17 branch**
 
 **Table of contents**
 
