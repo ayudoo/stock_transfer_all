@@ -24,7 +24,7 @@
             name="transfer_lines"
             invisible="not destination_location_id or not quantities_to_transfer">
             <field colspan="2" name="transfer_line_ids" nolabel="1">
-              <tree
+              <list
                 string="Transfer Details"
                 create="false"
                 delete="false"
@@ -38,7 +38,7 @@
                 <field name="quantity"/>
                 <field name="product_uom_id"/>
                 <field name="transfer_quantity"/>
-              </tree>
+              </list>
             </field>
           </group>
           <footer>
